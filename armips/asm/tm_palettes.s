@@ -492,7 +492,7 @@ PALETTE_FAIRY equ 401
 
 // HM001 CUT
 .skip 2
-.halfword PALETTE_NORMAL
+.halfword PALETTE_BUG
 .skip 4
 
 // HM002 FLY

@@ -285,7 +285,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag =  407, .gfx =  99, .callback_params = 0x1C60},
     { .tag =  408, .gfx = 100, .callback_params = 0x1C60},
     { .tag =  414, .gfx = 209, .callback_params = 0x0000},
-    { .tag =  415, .gfx = 201, .callback_params = 0x4E25},
+    { .tag =  415, .gfx = 201, .callback_params = 0x0000},
     { .tag =  416, .gfx = 202, .callback_params = 0x4E25},
     { .tag =  417, .gfx = 203, .callback_params = 0x4E25},
     { .tag =  418, .gfx = 204, .callback_params = 0x5225},
@@ -1645,8 +1645,8 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1764, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_FRIGIBAX
     { .tag = 1765, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ARCTIBAX
     { .tag = 1766, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_BAXCALIBUR
-    { .tag = 1767, .gfx = 1550, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GIMMIGHOUL
-    { .tag = 1768, .gfx = 1551, .callback_params = OVERWORLD_SIZE_SMALL}, // roaming
+    { .tag = 1767, .gfx = 1550, .callback_params = 0x0000}, // Sausage Sprite
+    { .tag = 1768, .gfx = 1551, .callback_params = 0x0000}, // Victor Sprite
     { .tag = 1769, .gfx = 1552, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GHOLDENGO
     { .tag = 1770, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_WO_CHIEN
     { .tag = 1771, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_CHIEN_PAO
