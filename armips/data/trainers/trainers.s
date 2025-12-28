@@ -4552,7 +4552,7 @@ trainerdata 39, "Eugene"
         abilityslot 0
         level 32
         pokemon SPECIES_SEAKING
-        item ITEM_DURIN_BERRY
+        item ITEM_PASSHO_BERRY
         move MOVE_AERIAL_ACE
         move MOVE_HORN_ATTACK
         move MOVE_KNOCK_OFF
@@ -4898,7 +4898,7 @@ trainerdata 215, "Connie"
         abilityslot 32
         level 34
         pokemon SPECIES_FORRETRESS
-        item ITEM_DURIN_BERRY
+        item ITEM_PASSHO_BERRY
         move MOVE_PROTECT
         move MOVE_SELF_DESTRUCT
         move MOVE_BUG_BITE
