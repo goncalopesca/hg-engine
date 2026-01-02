@@ -2667,7 +2667,17 @@ int LONG_CALL GetDynamicMoveType(struct BattleSystem *bsys, struct BattleStruct 
 
     switch (moveNo) {
         case MOVE_NATURAL_GIFT:
-            type = GetNaturalGiftType(ctx, battlerId);
+            debug_printf("Type of natural gift before function: %d\n", type);
+            if (ctx->move_type != TYPE_NORMAL)
+            {
+                type = ctx->move_type;
+            }
+            else
+            {
+                type = GetNaturalGiftType(ctx, battlerId);
+                ctx->move_type = type;
+            }
+            debug_printf("Type of natural gift: %d\n", type);
             break;
         case MOVE_JUDGMENT:
             switch (HeldItemHoldEffectGet(ctx, battlerId)) {
@@ -2979,7 +2989,7 @@ int LONG_CALL GetDynamicMoveType(struct BattleSystem *bsys, struct BattleStruct 
             break;
     }
 
-    return GetAdjustedMoveTypeBasics(ctx, moveNo, GetBattlerAbility(ctx, battlerId), type);
+    return type;
 }
 
 const u16 HealBlockUnusableMoves[] = {

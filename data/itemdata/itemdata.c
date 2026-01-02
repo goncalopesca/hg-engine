@@ -6058,7 +6058,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HEART_SCALE] =
 {
-    ITEM_PRICE(100),
+    ITEM_PRICE(1000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -9893,7 +9893,7 @@ const ITEMDATA __data[] =
 
 [ITEM_RAWST_BERRY] =
 {
-    ITEM_PRICE(80),
+    ITEM_PRICE(380),
     .holdEffect = HOLD_EFFECT_BRN_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 4,
@@ -10153,7 +10153,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PERSIM_BERRY] =
 {
-    ITEM_PRICE(80),
+    ITEM_PRICE(250),
     .holdEffect = HOLD_EFFECT_CONFUSE_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 8,
@@ -22048,7 +22048,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM012] =
 {
-    ITEM_PRICE(1600),
+    ITEM_PRICE(3000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

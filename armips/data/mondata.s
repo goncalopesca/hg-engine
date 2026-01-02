@@ -3228,7 +3228,7 @@ mondata SPECIES_CHIKORITA, "Chikorita"
 
 
 mondata SPECIES_BAYLEEF, "Bayleef"
-    basestats 70, 60, 90, 45, 60, 90
+    basestats 75, 65, 90, 50, 65, 90
     types TYPE_GRASS, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -3291,7 +3291,7 @@ mondata SPECIES_CYNDAQUIL, "Cyndaquil"
 
 
 mondata SPECIES_QUILAVA, "Quilava"
-    basestats 58, 60, 47, 90, 90, 70
+    basestats 65, 65, 50, 90, 90, 75
     types TYPE_FIRE, TYPE_FIRE
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -3354,7 +3354,7 @@ mondata SPECIES_TOTODILE, "Totodile"
 
 
 mondata SPECIES_CROCONAW, "Croconaw"
-    basestats 65, 90, 90, 55, 55, 60
+    basestats 75, 90, 90, 65, 50, 65
     types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -5391,7 +5391,7 @@ mondata SPECIES_TORCHIC, "Torchic"
 
 
 mondata SPECIES_COMBUSKEN, "Combusken"
-    basestats 60, 105, 50, 60, 90, 50
+    basestats 75, 90, 65, 50, 90, 65
     types TYPE_FIRE, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -8226,7 +8226,7 @@ mondata SPECIES_CHIMCHAR, "Chimchar"
 
 
 mondata SPECIES_MONFERNO, "Monferno"
-    basestats 57, 85, 50, 88, 85, 50
+    basestats 65, 90, 55, 80, 90, 55
     types TYPE_FIRE, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -10078,7 +10078,7 @@ mondata SPECIES_ROTOM, "Rotom"
     types TYPE_ELECTRIC, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
-    evyields 0, 0, 0, 1, 1, 0
+    evyields 0, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
     eggcycles 20

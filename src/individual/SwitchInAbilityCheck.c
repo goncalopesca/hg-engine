@@ -575,6 +575,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     // Imposter
                     {
                         if ((GetBattlerAbility(sp, client_no) == ABILITY_IMPOSTER) && (sp->battlemon[client_no].imposter_flag == 0)
+                         && !(sp->battlemon[client_no].condition2 & STATUS2_TRANSFORMED)
                          && (sp->battlemon[client_no].hp)
                          && IsValidImposterTarget(bw, sp, client_no)
                          && ((!(BattleTypeGet(bw) & BATTLE_TYPE_TRAINER)) ? (sp->battlemon[client_no].species == SPECIES_DITTO || sp->battlemon[client_no].species == SPECIES_MEW) : TRUE)) {
@@ -603,7 +604,6 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                                 src[num] = dest[num];
                             }
 
-                            sp->battlemon[sp->attack_client].ability_activated_flag = 0;
                             sp->battlemon[sp->attack_client].ability_activated_flag = 0;
                             sp->battlemon[sp->attack_client].moveeffect.truantFlag = sp->total_turn & 1;
                             sp->battlemon[sp->attack_client].moveeffect.slowStartTurns = sp->total_turn + 1;

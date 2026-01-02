@@ -1836,7 +1836,7 @@ evodata SPECIES_MEW
     terminateevodata
 
 evodata SPECIES_CHIKORITA
-    evolution EVO_LEVEL, 16, SPECIES_BAYLEEF
+    evolution EVO_LEVEL, 20, SPECIES_BAYLEEF
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1848,7 +1848,7 @@ evodata SPECIES_CHIKORITA
     terminateevodata
 
 evodata SPECIES_BAYLEEF
-    evolution EVO_LEVEL, 36, SPECIES_MEGANIUM
+    evolution EVO_LEVEL, 44, SPECIES_MEGANIUM
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1872,7 +1872,7 @@ evodata SPECIES_MEGANIUM
     terminateevodata
 
 evodata SPECIES_CYNDAQUIL
-    evolution EVO_LEVEL, 16, SPECIES_QUILAVA
+    evolution EVO_LEVEL, 20, SPECIES_QUILAVA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1884,7 +1884,7 @@ evodata SPECIES_CYNDAQUIL
     terminateevodata
 
 evodata SPECIES_QUILAVA
-    evolution EVO_LEVEL, 36, SPECIES_TYPHLOSION
+    evolution EVO_LEVEL, 44, SPECIES_TYPHLOSION
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1908,7 +1908,7 @@ evodata SPECIES_TYPHLOSION
     terminateevodata
 
 evodata SPECIES_TOTODILE
-    evolution EVO_LEVEL, 16, SPECIES_CROCONAW
+    evolution EVO_LEVEL, 20, SPECIES_CROCONAW
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1920,7 +1920,7 @@ evodata SPECIES_TOTODILE
     terminateevodata
 
 evodata SPECIES_CROCONAW
-    evolution EVO_LEVEL, 36, SPECIES_FERALIGATR
+    evolution EVO_LEVEL, 44, SPECIES_FERALIGATR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3072,7 +3072,7 @@ evodata SPECIES_SCEPTILE
     terminateevodata
 
 evodata SPECIES_TORCHIC
-    evolution EVO_LEVEL, 16, SPECIES_COMBUSKEN
+    evolution EVO_LEVEL, 20, SPECIES_COMBUSKEN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3084,7 +3084,7 @@ evodata SPECIES_TORCHIC
     terminateevodata
 
 evodata SPECIES_COMBUSKEN
-    evolution EVO_LEVEL, 36, SPECIES_BLAZIKEN
+    evolution EVO_LEVEL, 44, SPECIES_BLAZIKEN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4692,7 +4692,7 @@ evodata SPECIES_TORTERRA
     terminateevodata
 
 evodata SPECIES_CHIMCHAR
-    evolution EVO_LEVEL, 16, SPECIES_MONFERNO
+    evolution EVO_LEVEL, 20, SPECIES_MONFERNO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4704,7 +4704,7 @@ evodata SPECIES_CHIMCHAR
     terminateevodata
 
 evodata SPECIES_MONFERNO
-    evolution EVO_LEVEL, 36, SPECIES_INFERNAPE
+    evolution EVO_LEVEL, 44, SPECIES_INFERNAPE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

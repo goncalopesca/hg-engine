@@ -819,10 +819,10 @@ trainerdata 20, "Falkner"
         level 15
         pokemon SPECIES_TOGETIC
         item ITEM_ORAN_BERRY
+        move MOVE_GUST
+        move MOVE_FAIRY_WIND
         move MOVE_YAWN
         move MOVE_CHARM
-        move MOVE_GUST
-        move MOVE_ROOST
         nature NATURE_CALM
         ballseal 0
     endparty
@@ -3451,7 +3451,7 @@ trainerdata 81, "Tori & Til"
         abilityslot 32
         level 25
         pokemon SPECIES_TOGETIC
-        move MOVE_METRONOME
+        move MOVE_FAIRY_WIND
         move MOVE_YAWN
         move MOVE_CHARM
         move MOVE_FOLLOW_ME
@@ -5104,7 +5104,7 @@ trainerdata 63, "Sausage"
         ivs 255
         abilityslot 0
         level 36
-        pokemon SPECIES_ROTOM_FROST
+        monwithform SPECIES_ROTOM, 3
         item ITEM_NONE
         move MOVE_BLIZZARD
         move MOVE_THUNDER_WAVE

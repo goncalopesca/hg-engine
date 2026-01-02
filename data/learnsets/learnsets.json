@@ -26723,7 +26723,7 @@
         "Move": "MOVE_SLAM"
       },
       {
-        "Level": 36,
+        "Level": 35,
         "Move": "MOVE_SEED_BOMB"
       }
     ],
@@ -26885,7 +26885,7 @@
       },
       {
         "Level": 34,
-        "Move": "MOVE_REVENGE"
+        "Move": "MOVE_HEAT_WAVE"
       }
     ],
     "MachineMoves": [
@@ -27022,7 +27022,7 @@
       },
       {
         "Level": 35,
-        "Move": "MOVE_REVENGE"
+        "Move": "MOVE_HEAT_WAVE"
       }
     ],
     "MachineMoves": [
@@ -27128,7 +27128,7 @@
     "LevelMoves": [
       {
         "Level": 0,
-        "Move": "MOVE_HEAT_WAVE"
+        "Move": "MOVE_REVENGE"
       },
       {
         "Level": 1,
@@ -27171,8 +27171,8 @@
         "Move": "MOVE_TAKE_DOWN"
       },
       {
-        "Level": 36,
-        "Move": "MOVE_REVENGE"
+        "Level": 35,
+        "Move": "MOVE_HEAT_WAVE"
       }
     ],
     "MachineMoves": [
@@ -27688,7 +27688,7 @@
         "Move": "MOVE_AQUA_JET"
       },
       {
-        "Level": 36,
+        "Level": 35,
         "Move": "MOVE_FIRE_FANG"
       }
     ],
@@ -30022,7 +30022,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_METRONOME"
+        "Move": "MOVE_SWEET_KISS"
       },
       {
         "Level": 10,
@@ -30190,7 +30190,7 @@
       },
       {
         "Level": 10,
-        "Move": "MOVE_METRONOME"
+        "Move": "MOVE_SWEET_KISS"
       },
       {
         "Level": 12,
