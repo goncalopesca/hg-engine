@@ -613,7 +613,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag =  676, .gfx =  492, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SUNFLORA
     { .tag =  677, .gfx =  493, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_YANMA
     { .tag =  678, .gfx =  494, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_WOOPER
-    { .tag =  679, .gfx = 1548, .callback_params = OVERWORLD_SIZE_SMALL}, // paldean
+    { .tag =  679, .gfx = 1548, .callback_params = 0x0000}, // Bayuo Sprite
     { .tag =  680, .gfx =  495, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_QUAGSIRE
     { .tag =  681, .gfx =  496, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ESPEON
     { .tag =  682, .gfx =  497, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_UMBREON
@@ -1532,7 +1532,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1651, .gfx = 1283, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_WYRDEER
     { .tag = 1652, .gfx = 1284, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_KLEAVOR
     { .tag = 1653, .gfx = 1285, .callback_params = OVERWORLD_SIZE_LARGE}, // SPECIES_URSALUNA
-    { .tag = 1654, .gfx = 1549, .callback_params = OVERWORLD_SIZE_SMALL}, // bloodmoon
+    { .tag = 1654, .gfx = 1549, .callback_params = 0x0000}, // Dapoo Sprite
     { .tag = 1655, .gfx = 1286, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_BASCULEGION
     { .tag = 1656, .gfx = 1445, .callback_params = OVERWORLD_SIZE_SMALL}, // female
     { .tag = 1657, .gfx = 1287, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SNEASLER

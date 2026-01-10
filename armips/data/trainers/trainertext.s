@@ -389,7 +389,7 @@ _02BC: // Trainer 494
 
 _02C8: // Trainer 156
     trainertextentry 156, TEXT_NOTICE_IN_OVERWORLD, "My Pokémon and I are bound together by\nfriendship.\fOur bond will never be broken!\r"
-    trainertextentry 156, TEXT_DEFEATED_IN_BATTLE, "This isn’t real!\n"
+    trainertextentry 156, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "This isn’t real!\n"
     trainertextentry 156, TEXT_DEFEATED_IN_OVERWORLD, "You seem to have a strong bond with\nyour Pokémon, too!\n"
 
 _02D4: // Trainer 157
@@ -1455,7 +1455,7 @@ _0CEC: // Trainer 91
 
 _0CF8: // Trainer 92
     trainertextentry  92, TEXT_NOTICE_IN_OVERWORLD, "The weather is so beautiful, I’m in\na daze!\r"
-    trainertextentry  92, TEXT_DEFEATED_IN_BATTLE, "Ohhh!\n"
+    trainertextentry  92, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Ohhh!\n"
     trainertextentry  92, TEXT_DEFEATED_IN_OVERWORLD, "A sunburn is the worst for skin.\rBut I don’t use sunblock.\nI won’t pollute the water.\n"
 
 _0D04: // Trainer 93
