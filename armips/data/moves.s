@@ -557,10 +557,10 @@ movedata MOVE_TACKLE, "Tackle"
 movedata MOVE_BODY_SLAM, "Body Slam"
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 85
     type TYPE_NORMAL
     accuracy 100
-    pp 15
+    pp 10
     effectchance 20
     target RANGE_SINGLE_TARGET
     priority 0
@@ -1949,7 +1949,7 @@ movedata MOVE_SELF_DESTRUCT, "Self-Destruct"
 movedata MOVE_EGG_BOMB, "Egg Bomb"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower 85
     type TYPE_GRASS
     accuracy 90
     pp 10
@@ -2493,7 +2493,7 @@ movedata MOVE_FURY_SWIPES, "Fury Swipes"
 movedata MOVE_BONEMERANG, "Bonemerang"
     battleeffect MOVE_EFFECT_HIT_TWICE
     pss SPLIT_PHYSICAL
-    basepower 35
+    basepower 40
     type TYPE_GROUND
     accuracy 100
     pp 15
@@ -2751,8 +2751,8 @@ movedata MOVE_NIGHTMARE, "Nightmare"
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GHOST
-    accuracy 100
-    pp 15
+    accuracy 85
+    pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
@@ -4253,7 +4253,7 @@ movedata MOVE_FOCUS_PUNCH, "Focus Punch"
 movedata MOVE_SMELLING_SALTS, "Smelling Salts"
     battleeffect MOVE_EFFECT_DOUBLE_POWER_AND_CURE_PARALYSIS
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 65
     type TYPE_NORMAL
     accuracy 100
     pp 15
@@ -6429,7 +6429,7 @@ movedata MOVE_NIGHT_SLASH, "Night Slash"
 movedata MOVE_AQUA_TAIL, "Aqua Tail"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower 85
     type TYPE_WATER
     accuracy 100
     pp 10
@@ -9742,10 +9742,10 @@ movedatalongname MOVE_ELECTRIC_TERRAIN, "ElectricTerrain", "Electric Terrain"
 movedata MOVE_DAZZLING_GLEAM, "Dazzling Gleam"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 80
+    basepower 75
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     accuracy 100
-    pp 10
+    pp 15
     effectchance 0
     target RANGE_ADJACENT_OPPONENTS
     priority 0

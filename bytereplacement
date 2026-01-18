@@ -416,7 +416,7 @@ arm9 08051886 27
 arm9 080518CA 0B
 
 # sTrainerEncounterMusicParam table range
-arm9 080550D4 2C
+arm9 080550D4 2E
 
 # PrizeMoney table range
 0012 0223FBD0 88

@@ -21983,7 +21983,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM011] =
 {
-    ITEM_PRICE(6000),
+    ITEM_PRICE(3000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22308,7 +22308,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM016] =
 {
-    ITEM_PRICE(3200),
+    ITEM_PRICE(5000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22438,7 +22438,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM018] =
 {
-    ITEM_PRICE(12000),
+    ITEM_PRICE(5000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22568,7 +22568,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM020] =
 {
-    ITEM_PRICE(3200),
+    ITEM_PRICE(2000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23283,7 +23283,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM031] =
 {
-    ITEM_PRICE(1600),
+    ITEM_PRICE(5000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23413,7 +23413,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM033] =
 {
-    ITEM_PRICE(6000),
+    ITEM_PRICE(5000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23868,7 +23868,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM040] =
 {
-    ITEM_PRICE(1600),
+    ITEM_PRICE(3000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24063,7 +24063,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM043] =
 {
-    ITEM_PRICE(12000),
+    ITEM_PRICE(3000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24193,7 +24193,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM045] =
 {
-    ITEM_PRICE(12000),
+    ITEM_PRICE(3000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -26273,7 +26273,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM077] =
 {
-    ITEM_PRICE(32000),
+    ITEM_PRICE(2000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -26598,7 +26598,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM082] =
 {
-    ITEM_PRICE(1600),
+    ITEM_PRICE(3000),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -26923,7 +26923,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM087] =
 {
-    ITEM_PRICE(12000),
+    ITEM_PRICE(7500),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

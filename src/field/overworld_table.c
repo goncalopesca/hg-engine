@@ -1668,14 +1668,14 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1787, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // wellspring
     { .tag = 1788, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // hearthflame
     { .tag = 1789, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // cornerstone
-    { .tag = 1790, .gfx = 1545, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ARCHALUDON
-    { .tag = 1791, .gfx = 1546, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_HYDRAPPLE
+    { .tag = 1790, .gfx = 1545, .callback_params = 0x0000}, // Piksudo Sprite
+    { .tag = 1791, .gfx = 1546, .callback_params = 0x0000}, // Syndicaye Member (Female)
     { .tag = 1792, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GOUGING_FIRE
     { .tag = 1793, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_RAGING_BOLT
     { .tag = 1794, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_BOULDER
     { .tag = 1795, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_CROWN
     { .tag = 1796, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TERAPAGOS
-    { .tag = 1797, .gfx = 1547, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PECHARUNT
+    { .tag = 1797, .gfx = 1547, .callback_params = 0x0000}, // Syndicate Member (Male)
     { 0xFFFF, 0, 0},
 };
 

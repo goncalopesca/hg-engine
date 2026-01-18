@@ -1224,7 +1224,7 @@ _0AA8: // Trainer 56
 
 _0AB4: // Trainer 61
     trainertextentry  61, TEXT_NOTICE_IN_OVERWORLD, "I came through the cave, but I still\nhave plenty of energy left.\r"
-    trainertextentry  61, TEXT_DEFEATED_IN_BATTLE, "Whoa! You’ve got more zip than me!\n"
+    trainertextentry  61, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Whoa! You’ve got more zip than me!\n"
     trainertextentry  61, TEXT_DEFEATED_IN_OVERWORLD, "We Hikers are at our best in\nthe mountains.\n"
     trainertextentry  61, TEXT_REMATCH_IN_OVERWORLD, "All righty, then!\nMy Pokémon and I are raring to go!\r"
 
@@ -1404,9 +1404,9 @@ _0C74: // Trainer 16
     trainertextentry  16, TEXT_DEFEATED_IN_OVERWORLD, "Cianwood City is a good distance away\nfrom here.\n"
 
 _0C80: // Trainer 86
-    trainertextentry  86, TEXT_NOTICE_IN_OVERWORLD, "Hey, you’re young and fit!\nDon’t ride your Pokémon! Swim!\r"
-    trainertextentry  86, TEXT_DEFEATED_IN_BATTLE, "Uh-oh. I lost...\n"
-    trainertextentry  86, TEXT_DEFEATED_IN_OVERWORLD, "Swimming exercises your entire body.\nIt’s healthy.\n"
+    trainertextentry  86, TEXT_NOTICE_IN_OVERWORLD, "We have plenty of connections, it\nallows us to have a lot of items to\ftrade.\r"
+    trainertextentry  86, TEXT_DEFEATED_IN_BATTLE, "So close…\n"
+    trainertextentry  86, TEXT_DEFEATED_IN_OVERWORLD, "For trainers like you, we have plenty\nof stuff to sell.\n"
 
 _0C8C: // Trainer 9
     trainertextentry   9, TEXT_NOTICE_IN_OVERWORLD, "Are you going to Cianwood?\rHow about a quick battle first?\r"
@@ -1449,9 +1449,9 @@ _0CE0: // Trainer 90
     trainertextentry  90, TEXT_DEFEATED_IN_OVERWORLD, "There’s supposed to be a big Pokémon\ndeep beneath the Whirl Islands.\fI wonder what it could be?\n"
 
 _0CEC: // Trainer 91
-    trainertextentry  91, TEXT_NOTICE_IN_OVERWORLD, "You look so elegant riding\nyour Pokémon.\r"
-    trainertextentry  91, TEXT_DEFEATED_IN_BATTLE, "I’m crushed...\n"
-    trainertextentry  91, TEXT_DEFEATED_IN_OVERWORLD, "Wasn’t there a hit song about a boy\nriding a LAPRAS?\n"
+    trainertextentry  91, TEXT_NOTICE_IN_OVERWORLD, "The Syndicate is very proud of its\nfighting prowess. We must always be\fready!\n"
+    trainertextentry  91, TEXT_DEFEATED_IN_BATTLE, "Wonderful fight!\n"
+    trainertextentry  91, TEXT_DEFEATED_IN_OVERWORLD, "You seem very talented! Maybe you\ncould join our ranks one day.\n"
 
 _0CF8: // Trainer 92
     trainertextentry  92, TEXT_NOTICE_IN_OVERWORLD, "The weather is so beautiful, I’m in\na daze!\r"
@@ -1459,9 +1459,9 @@ _0CF8: // Trainer 92
     trainertextentry  92, TEXT_DEFEATED_IN_OVERWORLD, "A sunburn is the worst for skin.\rBut I don’t use sunblock.\nI won’t pollute the water.\n"
 
 _0D04: // Trainer 93
-    trainertextentry  93, TEXT_NOTICE_IN_OVERWORLD, "If you need to rest, just tread water.\nYou’ll get your breath back so you can\fkeep on going strong.\r"
-    trainertextentry  93, TEXT_DEFEATED_IN_BATTLE, "Oh! You have more energy than I do.\n"
-    trainertextentry  93, TEXT_DEFEATED_IN_OVERWORLD, "I heard roars from deep inside\nthe islands.\n"
+    trainertextentry  93, TEXT_NOTICE_IN_OVERWORLD, "To have reached here, you must be\nstrong. How about a little battle?\r"
+    trainertextentry  93, TEXT_DEFEATED_IN_BATTLE, "Appearances deceive…\n"
+    trainertextentry  93, TEXT_DEFEATED_IN_OVERWORLD, "You are indeed quite a find, you\nshould meet our Boss! You would find\fhim rather interesting.\n"
 
 _0D10: // Trainer 94
     trainertextentry  94, TEXT_NOTICE_IN_OVERWORLD, "At night, STARYU gather near the\nwater’s surface.\r"
@@ -1958,9 +1958,9 @@ _11AC: // Trainer 384
     trainertextentry 384, TEXT_DEFEATED_IN_OVERWORLD, "I was conned into buying a\nSlowpokeTail. I feel sorry for the\fpoor Pokémon.\n"
 
 _11B8: // Trainer 201
-    trainertextentry 201, TEXT_NOTICE_IN_OVERWORLD, "Who’s there?\nLeave me and my Pokémon alone!\r"
-    trainertextentry 201, TEXT_DEFEATED_IN_BATTLE, "Go...\nGo away!\n"
-    trainertextentry 201, TEXT_DEFEATED_IN_OVERWORLD, "Just me and my Pokémon.\nI’m delirious with joy.\n"
+    trainertextentry 201, TEXT_NOTICE_IN_OVERWORLD, "This place is very nice to train.\nWanna test our skills?\r"
+    trainertextentry 201, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Fair and Square…\n"
+    trainertextentry 201, TEXT_DEFEATED_IN_OVERWORLD, "There is a lot of strong pokemon here.\nI wonder if that's the reason\fThe Syndicate likes this place.\n"
 
 _11C4: // Trainer 202
     trainertextentry 202, TEXT_NOTICE_IN_OVERWORLD, "I came all the way here to conduct my\nPokémon research.\rLet me demonstrate my findings in a\nreal battle!\r"
@@ -2637,9 +2637,9 @@ _1840: // Trainer 731
     trainertextentry 731, TEXT_DEFEATED_IN_OVERWORLD, "After a battle, you should always leave\nwith a parting laugh!\n"
 
 _184C: // Trainer 732
-    trainertextentry 732, TEXT_NOTICE_IN_OVERWORLD, "I’m not good with large crowds, so\nI’m camping out here with my Pokémon!\fAre you the same way?\r"
-    trainertextentry 732, TEXT_DEFEATED_IN_BATTLE, "I should be headed deeper into the\nmountain, I guess...\n"
-    trainertextentry 732, TEXT_DEFEATED_IN_OVERWORLD, "See ya!\n"
+    trainertextentry 732, TEXT_NOTICE_IN_OVERWORLD, "You are in The Syndicate territory!\nOnly strong trainers are allowed to\fcome here.\r"
+    trainertextentry 732, TEXT_DEFEATED_IN_BATTLE, "No doubt…\n"
+    trainertextentry 732, TEXT_DEFEATED_IN_OVERWORLD, "No mistake in your place here, you can\ngo on.\n"
 
 _1858: // Trainer 733
     trainertextentry 733, TEXT_DEFEATED_IN_BATTLE, "Did you see that, Clair?\n"

@@ -138,6 +138,8 @@
 #define TRAINERCLASS_SYNDICATE_BOSS         133
 #define TRAINERCLASS_PKMN_TRAINER_PIKSUDO   134
 #define TRAINERCLASS_TIME_TRAVELER          135
+#define TRAINERCLASS_SYNDICATE_MEMBER_M     136
+#define TRAINERCLASS_SYNDICATE_MEMBER_F     137
 
 // Only used to display attributes of phone contacts
 #define TRAINERCLASS_PHONE_MOM               200
