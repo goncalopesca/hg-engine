@@ -6859,7 +6859,7 @@ movedata MOVE_PSYCHO_CUT, "Psycho Cut"
     movedescription MOVE_PSYCHO_CUT, "The user tears at\nthe foe with blades\nformed by psychic\npower. It has a high\ncritical-hit ratio."
 
 movedata MOVE_ZEN_HEADBUTT, "Zen Headbutt"
-    battleeffect MOVE_EFFECT_DEF_DOWN
+    battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_PSYCHIC
@@ -7083,7 +7083,7 @@ movedata MOVE_GUNK_SHOT, "Gunk Shot"
     movedescription MOVE_GUNK_SHOT, "The user shoots\nfilthy garbage at the\nfoe to attack.\nIt may also poison\nthe target."
 
 movedata MOVE_IRON_HEAD, "Iron Head"
-    battleeffect MOVE_EFFECT_DEF_DOWN
+    battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_STEEL
