@@ -3406,7 +3406,7 @@ movedata MOVE_MEAN_LOOK, "Mean Look"
     battleeffect MOVE_EFFECT_PREVENT_ESCAPE
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_GHOST
     accuracy 0
     pp 5
     effectchance 0
@@ -4013,10 +4013,10 @@ movedata MOVE_ROCK_SMASH, "Rock Smash"
 movedata MOVE_WHIRLPOOL, "Whirlpool"
     battleeffect MOVE_EFFECT_WHIRLPOOL
     pss SPLIT_SPECIAL
-    basepower 35
+    basepower 70
     type TYPE_WATER
-    accuracy 95
-    pp 10
+    accuracy 90
+    pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0

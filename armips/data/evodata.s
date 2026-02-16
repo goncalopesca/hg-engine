@@ -1020,7 +1020,7 @@ evodata SPECIES_FARFETCHD
     terminateevodata
 
 evodata SPECIES_DODUO
-    evolution EVO_LEVEL, 31, SPECIES_DODRIO
+    evolution EVO_LEVEL, 34, SPECIES_DODRIO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2652,7 +2652,7 @@ evodata SPECIES_MAGCARGO
     terminateevodata
 
 evodata SPECIES_SWINUB
-    evolution EVO_LEVEL, 33, SPECIES_PILOSWINE
+    evolution EVO_LEVEL, 25, SPECIES_PILOSWINE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2664,7 +2664,7 @@ evodata SPECIES_SWINUB
     terminateevodata
 
 evodata SPECIES_PILOSWINE
-    evolution EVO_HAS_MOVE, MOVE_ANCIENT_POWER, SPECIES_MAMOSWINE
+    evolution EVO_LEVEL, 44, SPECIES_MAMOSWINE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3564,7 +3564,7 @@ evodata SPECIES_EXPLOUD
     terminateevodata
 
 evodata SPECIES_MAKUHITA
-    evolution EVO_LEVEL, 24, SPECIES_HARIYAMA
+    evolution EVO_LEVEL, 34, SPECIES_HARIYAMA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3696,7 +3696,7 @@ evodata SPECIES_AGGRON
     terminateevodata
 
 evodata SPECIES_MEDITITE
-    evolution EVO_LEVEL, 37, SPECIES_MEDICHAM
+    evolution EVO_LEVEL, 44, SPECIES_MEDICHAM
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5220,7 +5220,7 @@ evodata SPECIES_CHINGLING
     terminateevodata
 
 evodata SPECIES_STUNKY
-    evolution EVO_LEVEL, 34, SPECIES_SKUNTANK
+    evolution EVO_LEVEL, 32, SPECIES_SKUNTANK
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

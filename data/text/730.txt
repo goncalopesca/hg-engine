@@ -92,7 +92,7 @@ Elite Four
 ₧₦ Trainer
 ₧₦ Trainer
 ₧₦ Trainer
-₧₦ Trainer
+Partner
 ₧₦ Trainer
 ₧₦ Trainer
 Tower Tycoon
@@ -136,3 +136,8 @@ Syndicate Boss
 Time Traveler?
 Syndicate Member
 Syndicate Member
+Match Fanatic
+Mad Scientist
+Hot Shot
+Orewa King
+a Wild
