@@ -1867,12 +1867,12 @@ _10CC: // Trainer 188
 
 _10D8: // Trainer 198
     trainertextentry 198, TEXT_NOTICE_IN_OVERWORLD, "Ha ha ha!\fHow boring. It was far too easy to take\nover this place!\rCome on, keep me amused!\r"
-    trainertextentry 198, TEXT_DEFEATED_IN_BATTLE, "Wh-who are you?\n"
+    trainertextentry 198, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Wh-who are you?\n"
     trainertextentry 198, TEXT_DEFEATED_IN_OVERWORLD, "You beat me, and I won’t forget it!\n"
 
 _10E4: // Trainer 471
     trainertextentry 471, TEXT_NOTICE_IN_OVERWORLD, "An unknown child wandering here?\nWho are you?\r"
-    trainertextentry 471, TEXT_DEFEATED_IN_BATTLE, "Tch! I took you too lightly!\n"
+    trainertextentry 471, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Tch! I took you too lightly!\n"
     trainertextentry 471, TEXT_DEFEATED_IN_OVERWORLD, "Bwahahaha...\rI can transmit as strong a signal as\nI need from here.\n"
 
 _10F0: // Trainer 189
@@ -1887,7 +1887,7 @@ _10FC: // Trainer 190
 
 _1108: // Trainer 191
     trainertextentry 191, TEXT_NOTICE_IN_OVERWORLD, "Why did the door open? Did you have\nsomething to do with this?\r"
-    trainertextentry 191, TEXT_DEFEATED_IN_BATTLE, "Gulp! This is a bleak moment.\n"
+    trainertextentry 191, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Gulp! This is a bleak moment.\n"
     trainertextentry 191, TEXT_DEFEATED_IN_OVERWORLD, "What?! You made it past our men in\nthe Underground? How could you have?\n"
 
 _1114: // Trainer 706
@@ -1904,11 +1904,11 @@ _1128: // Trainer 472
 
 _1134: // Trainer 192
     trainertextentry 192, TEXT_NOTICE_IN_OVERWORLD, "You plan to rescue the Director?\nSo sad that won’t be possible--\fbecause I’m going to beat you!\r"
-    trainertextentry 192, TEXT_DEFEATED_IN_BATTLE, "No! Unbelievable!\n"
+    trainertextentry 192, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "No! Unbelievable!\n"
     trainertextentry 192, TEXT_DEFEATED_IN_OVERWORLD, "I do not believe it! I was beaten!\n"
 
 _1140: // Trainer 200
-    trainertextentry 200, TEXT_DEFEATED_IN_BATTLE, "Oh, no! They’re so useless!\n"
+    trainertextentry 200, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Hm…I see.\n"
 
 _1144: // Trainer 487
     trainertextentry 487, TEXT_LAST_MON_SENT_OUT, "What? Am I losing?\n"
@@ -1916,16 +1916,16 @@ _1144: // Trainer 487
     trainertextentry 487, TEXT_DEFEATED_IN_BATTLE, "OK, OK. I’ll tell you where he is.\n"
 
 _1150: // Trainer 478
-    trainertextentry 478, TEXT_NOTICE_IN_OVERWORLD, "Ariana: Hey, you...\nRemember me from the hideout in\fMahogany Town?\rThis time...\rHee hee hee. This time...it looks like\nyou’re really all alone. All alone...\rSo it should be quite easy.\nBring it! Let’s finish this!\r\n"
+    trainertextentry 478, TEXT_NOTICE_IN_OVERWORLD, "Ariana: Hey, you...\nRemember me from the hideout in\fMahogany Town?\rThis time...\rThis time...it looks like you’re really\nall alone. All alone...\rSo it should be quite easy.\nBring it! Let’s finish this!\r\n"
     trainertextentry 478, TEXT_LAST_MON_SENT_OUT, "Hey, what do you think you’re doing?!\n"
     trainertextentry 478, TEXT_LAST_MON_CRITICAL, "Wh... Wha... Why are you so strong?!\n"
     trainertextentry 478, TEXT_DEFEATED_IN_BATTLE, "Aaaieeeee!\nThis can’t be happening!\rI fought hard, but I still lost...\n"
-    trainertextentry 478, TEXT_DEFEATED_IN_OVERWORLD, "What a waste...\nnot to use your strength to do\fbad things!\rFeh... People like you will never in a\nmillion years understand our brilliance!\rIt’s too bad... I’ve really come to\nrespect your strength.\n"
+    trainertextentry 478, TEXT_DEFEATED_IN_OVERWORLD, "Tch…\rWhy?\rWith talent like yours, you could’ve\nbeen one of our finest Executives.\rWhat a waste!\rReminds me of someone else.\rThat fool in the blue coat.\n"
 
 _1164: // Trainer 485
     trainertextentry 485, TEXT_LAST_MON_SENT_OUT, "We can’t have you getting in the way\nbefore news of our resurgence\freaches Giovanni!\n"
     trainertextentry 485, TEXT_LAST_MON_CRITICAL, "That’s impossible...\n"
-    trainertextentry 485, TEXT_DEFEATED_IN_BATTLE, "No!\nForgive me, Giovanni!\n"
+    trainertextentry 485, TEXT_DEFEATED_IN_BATTLE, "But…How…?\n"
 
 _1170: // Trainer 42
     trainertextentry  42, TEXT_NOTICE_IN_OVERWORLD, "Hmmm...\nThis is a strange place.\r"
@@ -2145,7 +2145,7 @@ _1364: // Trainer 393
 
 _1370: // Trainer 14
     trainertextentry  14, TEXT_NOTICE_IN_OVERWORLD, "Fork over your goods!\r"
-    trainertextentry  14, TEXT_DEFEATED_IN_BATTLE, "Mercy!\n"
+    trainertextentry  14, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Mercy!\n"
     trainertextentry  14, TEXT_DEFEATED_IN_OVERWORLD, "Steal and sell!\nThat’s basic in crime, kid!\n"
 
 _137C: // Trainer 283
@@ -2175,7 +2175,7 @@ _13AC: // Trainer 199
 
 _13B8: // Trainer 196
     trainertextentry 196, TEXT_NOTICE_IN_OVERWORLD, "You’re not going any farther!\nI don’t show mercy to my enemies,\fespecially not brats!\r"
-    trainertextentry 196, TEXT_DEFEATED_IN_BATTLE, "Blast it!\n"
+    trainertextentry 196, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Blast it!\n"
     trainertextentry 196, TEXT_DEFEATED_IN_OVERWORLD, "I lost...\rPlease forgive me, Giovanni!\n"
 
 _13C4: // Trainer 197
@@ -2184,9 +2184,9 @@ _13C4: // Trainer 197
     trainertextentry 197, TEXT_DEFEATED_IN_OVERWORLD, "Hyuck-hyuck-hyuck!\nThat was a blast!\n"
 
 _13D0: // Trainer 227
-    trainertextentry 227, TEXT_NOTICE_IN_OVERWORLD, "How did you get this far? I guess it\ncan’t be helped. I’ll dispose of you.\r"
-    trainertextentry 227, TEXT_DEFEATED_IN_BATTLE, "I got disposed of...\n"
-    trainertextentry 227, TEXT_DEFEATED_IN_OVERWORLD, "Team Rocket will keep going, waiting for\nthe return of Giovanni.\rWe’ll do whatever it takes.\n"
+    trainertextentry 227, TEXT_NOTICE_IN_OVERWORLD, "You again?\rBeing blown the first time wasn't\nenough?\rPrepare for my even stronger bomb\nsquad!\r"
+    trainertextentry 227, TEXT_DEFEATED_IN_BATTLE, "Kabom?\n"
+    trainertextentry 227, TEXT_DEFEATED_IN_OVERWORLD, "Dammit!\rGo on, save the director…see if I\ncare!\n"
 
 _13DC: // Trainer 158
     trainertextentry 158, TEXT_DEFEATED_IN_BATTLE, "Waaaarggh!\nI’m beaten!\n"

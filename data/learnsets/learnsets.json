@@ -18801,7 +18801,7 @@
       },
       {
         "Level": 48,
-        "Move": "MOVE_COUNTER"
+        "Move": "MOVE_MEGA_KICK"
       }
     ],
     "MachineMoves": [
@@ -20644,7 +20644,7 @@
       },
       {
         "Level": 48,
-        "Move": "MOVE_ENDEAVOR"
+        "Move": "MOVE_AQUA_TAIL"
       }
     ],
     "MachineMoves": [
