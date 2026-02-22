@@ -605,9 +605,9 @@ movedata MOVE_TAKE_DOWN, "Take Down"
 movedata MOVE_THRASH, "Thrash"
     battleeffect MOVE_EFFECT_CONTINUE_AND_CONFUSE_SELF
     pss SPLIT_PHYSICAL
-    basepower 120
+    basepower 110
     type TYPE_NORMAL
-    accuracy 100
+    accuracy 95
     pp 10
     effectchance 0
     target RANGE_RANDOM_OPPONENT
@@ -1293,9 +1293,9 @@ movedata MOVE_SLEEP_POWDER, "Sleep Powder"
 movedata MOVE_PETAL_DANCE, "Petal Dance"
     battleeffect MOVE_EFFECT_CONTINUE_AND_CONFUSE_SELF
     pss SPLIT_SPECIAL
-    basepower 120
+    basepower 110
     type TYPE_GRASS
-    accuracy 100
+    accuracy 95
     pp 10
     effectchance 0
     target RANGE_RANDOM_OPPONENT
@@ -2512,7 +2512,7 @@ movedata MOVE_REST, "Rest"
     basepower 0
     type TYPE_PSYCHIC
     accuracy 0
-    pp 10
+    pp 5
     effectchance 0
     target RANGE_USER
     priority 0
@@ -2640,7 +2640,7 @@ movedata MOVE_SUBSTITUTE, "Substitute"
     basepower 0
     type TYPE_NORMAL
     accuracy 0
-    pp 10
+    pp 5
     effectchance 0
     target RANGE_USER
     priority 0
@@ -2928,7 +2928,7 @@ movedata MOVE_PROTECT, "Protect"
     basepower 0
     type TYPE_NORMAL
     accuracy 0
-    pp 10
+    pp 5
     effectchance 0
     target RANGE_USER
     priority 4
@@ -3213,9 +3213,9 @@ movedata MOVE_LOCK_ON, "Lock-On"
 movedata MOVE_OUTRAGE, "Outrage"
     battleeffect MOVE_EFFECT_CONTINUE_AND_CONFUSE_SELF
     pss SPLIT_PHYSICAL
-    basepower 120
+    basepower 110
     type TYPE_DRAGON
-    accuracy 100
+    accuracy 95
     pp 10
     effectchance 0
     target RANGE_RANDOM_OPPONENT
@@ -3632,7 +3632,7 @@ movedata MOVE_BATON_PASS, "Baton Pass"
     basepower 0
     type TYPE_NORMAL
     accuracy 0
-    pp 40
+    pp 5
     effectchance 0
     target RANGE_USER
     priority 0
@@ -4384,7 +4384,7 @@ movedata MOVE_WISH, "Wish"
     basepower 0
     type TYPE_NORMAL
     accuracy 0
-    pp 10
+    pp 5
     effectchance 0
     target RANGE_USER
     priority 0
