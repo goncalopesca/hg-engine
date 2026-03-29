@@ -2093,10 +2093,10 @@ movedata MOVE_SWIFT, "Swift"
 movedata MOVE_SKULL_BASH, "Skull Bash"
     battleeffect MOVE_EFFECT_CHARGE_TURN_DEF_UP
     pss SPLIT_PHYSICAL
-    basepower 130
+    basepower 100
     type TYPE_NORMAL
-    accuracy 100
-    pp 10
+    accuracy 95
+    pp 5
     effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
@@ -5759,7 +5759,7 @@ movedata MOVE_HAMMER_ARM, "Hammer Arm"
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_FIGHTING
-    accuracy 95
+    accuracy 90
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -6080,7 +6080,7 @@ movedata MOVE_POWER_TRICK, "Power Trick"
     basepower 0
     type TYPE_PSYCHIC
     accuracy 0
-    pp 10
+    pp 5
     effectchance 0
     target RANGE_USER
     priority 0
@@ -6160,7 +6160,7 @@ movedata MOVE_POWER_SWAP, "Power Swap"
     basepower 0
     type TYPE_PSYCHIC
     accuracy 0
-    pp 10
+    pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
@@ -6176,7 +6176,7 @@ movedata MOVE_GUARD_SWAP, "Guard Swap"
     basepower 0
     type TYPE_PSYCHIC
     accuracy 0
-    pp 10
+    pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
@@ -6715,15 +6715,15 @@ movedata MOVE_BULLET_PUNCH, "Bullet Punch"
     movedescription MOVE_BULLET_PUNCH, "The user strikes\nwith a tough punch as\nfast as a bullet.\nThis move always goes\nfirst."
 
 movedata MOVE_AVALANCHE, "Avalanche"
-    battleeffect MOVE_EFFECT_DOUBLE_DAMAGE_IF_HIT
+    battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower 90
     type TYPE_ICE
-    accuracy 100
-    pp 15
+    accuracy 90
+    pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
-    priority -4
+    priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal APPEAL_DOUBLE_ON_FINALE
     contesttype CONTEST_COOL

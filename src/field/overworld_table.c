@@ -1651,11 +1651,11 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1771, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_CHIEN_PAO
     { .tag = 1772, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TING_LU
     { .tag = 1773, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_CHI_YU
-    { .tag = 1774, .gfx = 1542, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ROARING_MOON
+    { .tag = 1774, .gfx = 1542, .callback_params = 0x0000}, // Pedu Sprite
     { .tag = 1775, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_VALIANT
     { .tag = 1776, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_KORAIDON
     { .tag = 1777, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_MIRAIDON
-    { .tag = 1778, .gfx = 1543, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_WALKING_WAKE
+    { .tag = 1778, .gfx = 1543, .callback_params = 0x0000}, // Bruninho Sprite
     { .tag = 1779, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_LEAVES
     { .tag = 1780, .gfx = 1544, .callback_params = 0x0000}, // Ramalho Sprite
     { .tag = 1781, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_POLTCHAGEIST

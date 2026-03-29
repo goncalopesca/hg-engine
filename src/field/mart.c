@@ -98,7 +98,7 @@ u16 sCianwoodPharmacy[] = {
 };
 
 u16 sBlackthornAndBattleFrontierMart[] = {
-    ITEM_AIR_MAIL, ITEM_NET_BALL, ITEM_DUSK_BALL, 0xFFFF
+    ITEM_JABOCA_BERRY, ITEM_ROWAP_BERRY, ITEM_DIVE_BALL, 0xFFFF
 };
 
 u16 sIndigoPlateau[] = {
@@ -177,8 +177,7 @@ u16 sMahoganyPreRocketHideout[] = {
 };
 
 u16 sMahoganyPostRocketHideout[] = {
-    ITEM_GREAT_BALL, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_ANTIDOTE, ITEM_PARALYZE_HEAL,
-    ITEM_SUPER_REPEL, ITEM_REVIVE, ITEM_AIR_MAIL, 0xFFFF
+    ITEM_LEPPA_BERRY, ITEM_ASPEAR_BERRY, ITEM_NEST_BALL, ITEM_REPEAT_BALL, 0xFFFF
 };
 
 BOOL ScrCmd_MartBuy(SCRIPTCONTEXT *ctx) {

@@ -102,7 +102,7 @@ struct TrainerMoney PrizeMoney[] = // 0x34C04 in Overlay 12; 2 bytes for trainer
     { .class = TRAINERCLASS_PKMN_TRAINER_CHERYL, .multiplier = 30 },
     { .class = TRAINERCLASS_PKMN_TRAINER_RILEY, .multiplier = 30 },
     { .class = TRAINERCLASS_PKMN_TRAINER_BUCK, .multiplier = 30 },
-    { .class = TRAINERCLASS_PKMN_TRAINER_MIRA, .multiplier = 30 },
+    { .class = TRAINERCLASS_BIRD_EXPERT_PARTNER, .multiplier = 0 },
     { .class = TRAINERCLASS_ROCK_EXPERT_PARTNER, .multiplier = 0 },
     { .class = TRAINERCLASS_PKMN_TRAINER_FTR_LUCAS, .multiplier = 25 },
     { .class = TRAINERCLASS_PKMN_TRAINER_FTR_DAWN, .multiplier = 25 },
@@ -153,4 +153,5 @@ struct TrainerMoney PrizeMoney[] = // 0x34C04 in Overlay 12; 2 bytes for trainer
     { .class = TRAINERCLASS_HOT_SHOT, .multiplier = 20 },
     { .class = TRAINERCLASS_OREWA_KING, .multiplier = 20 },
     { .class = TRAINERCLASS_WILD_POKEMON, .multiplier = 0 },
+    { .class = TRAINERCLASS_MAGNATE, .multiplier = 15 },
 };

@@ -91,7 +91,7 @@ Elite Four
 ₧₦ Trainer
 ₧₦ Trainer
 ₧₦ Trainer
-₧₦ Trainer
+Partner
 Partner
 ₧₦ Trainer
 ₧₦ Trainer
@@ -141,3 +141,4 @@ Mad Scientist
 Hot Shot
 Orewa King
 a Wild
+Magnate

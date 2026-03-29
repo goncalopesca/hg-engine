@@ -60,7 +60,7 @@ evodata SPECIES_VENUSAUR
     terminateevodata
 
 evodata SPECIES_CHARMANDER
-    evolution EVO_LEVEL, 16, SPECIES_CHARMELEON
+    evolution EVO_LEVEL, 20, SPECIES_CHARMELEON
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -72,7 +72,7 @@ evodata SPECIES_CHARMANDER
     terminateevodata
 
 evodata SPECIES_CHARMELEON
-    evolution EVO_LEVEL, 36, SPECIES_CHARIZARD
+    evolution EVO_LEVEL, 44, SPECIES_CHARIZARD
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1368,8 +1368,8 @@ evodata SPECIES_RHYDON
     terminateevodata
 
 evodata SPECIES_CHANSEY
-    evolution EVO_FRIENDSHIP, 0, SPECIES_BLISSEY
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_ITEM_DAY, ITEM_OVAL_STONE, SPECIES_CHANSEY
+    evolution EVO_ITEM_NIGHT, ITEM_OVAL_STONE, SPECIES_CHANSEY
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2868,7 +2868,7 @@ evodata SPECIES_HITMONTOP
     terminateevodata
 
 evodata SPECIES_SMOOCHUM
-    evolution EVO_LEVEL, 30, SPECIES_JYNX
+    evolution EVO_LEVEL, 32, SPECIES_JYNX
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3036,7 +3036,7 @@ evodata SPECIES_CELEBI
     terminateevodata
 
 evodata SPECIES_TREECKO
-    evolution EVO_LEVEL, 16, SPECIES_GROVYLE
+    evolution EVO_LEVEL, 20, SPECIES_GROVYLE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3048,7 +3048,7 @@ evodata SPECIES_TREECKO
     terminateevodata
 
 evodata SPECIES_GROVYLE
-    evolution EVO_LEVEL, 36, SPECIES_SCEPTILE
+    evolution EVO_LEVEL, 44, SPECIES_SCEPTILE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3456,7 +3456,7 @@ evodata SPECIES_BRELOOM
     terminateevodata
 
 evodata SPECIES_SLAKOTH
-    evolution EVO_LEVEL, 18, SPECIES_VIGOROTH
+    evolution EVO_LEVEL, 25, SPECIES_VIGOROTH
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3468,7 +3468,7 @@ evodata SPECIES_SLAKOTH
     terminateevodata
 
 evodata SPECIES_VIGOROTH
-    evolution EVO_LEVEL, 36, SPECIES_SLAKING
+    evolution EVO_LEVEL, 44, SPECIES_SLAKING
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3528,7 +3528,7 @@ evodata SPECIES_SHEDINJA
     terminateevodata
 
 evodata SPECIES_WHISMUR
-    evolution EVO_LEVEL, 20, SPECIES_LOUDRED
+    evolution EVO_LEVEL, 18, SPECIES_LOUDRED
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3540,7 +3540,7 @@ evodata SPECIES_WHISMUR
     terminateevodata
 
 evodata SPECIES_LOUDRED
-    evolution EVO_LEVEL, 40, SPECIES_EXPLOUD
+    evolution EVO_LEVEL, 34, SPECIES_EXPLOUD
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5292,7 +5292,7 @@ evodata SPECIES_MIMEJR
     terminateevodata
 
 evodata SPECIES_HAPPINY
-    evolution EVO_ITEM_DAY, ITEM_OVAL_STONE, SPECIES_CHANSEY
+    evolution EVO_LEVEL, 16, SPECIES_CHANSEY
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5364,8 +5364,8 @@ evodata SPECIES_GARCHOMP
     terminateevodata
 
 evodata SPECIES_MUNCHLAX
-    evolution EVO_FRIENDSHIP, 0, SPECIES_SNORLAX
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_ITEM_DAY, ITEM_LUCKY_EGG, SPECIES_SNORLAX
+    evolution EVO_ITEM_NIGHT, ITEM_LUCKY_EGG, SPECIES_SNORLAX
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

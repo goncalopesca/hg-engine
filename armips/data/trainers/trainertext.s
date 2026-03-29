@@ -408,9 +408,9 @@ _02EC: // Trainer 159
     trainertextentry 159, TEXT_DEFEATED_IN_OVERWORLD, "My Pokémon lost...\nMy...my pride is shattered...\n"
 
 _02F8: // Trainer 480
-    trainertextentry 480, TEXT_NOTICE_IN_OVERWORLD, "To get to Pryce, our Gym Leader,\nyou need to think before you skate.\r"
+    trainertextentry 480, TEXT_NOTICE_IN_OVERWORLD, "Hey! You found my secret skiing spot!\rNow I'm gonna have to beat you!\r"
     trainertextentry 480, TEXT_DEFEATED_IN_BATTLE, "I wouldn’t lose to you in skiing...\n"
-    trainertextentry 480, TEXT_DEFEATED_IN_OVERWORLD, "If you don’t skate with precision,\nyou won’t get far in this Gym.\n"
+    trainertextentry 480, TEXT_DEFEATED_IN_OVERWORLD, "Please don't tell anyone.\rThis is my sacred place.\rI love skiing here.\n"
 
 _0304: // Trainer 481
     trainertextentry 481, TEXT_NOTICE_IN_OVERWORLD, "Check out my parallel turn!\r"
@@ -438,9 +438,9 @@ _0334: // Trainer 110
     trainertextentry 110, TEXT_DEFEATED_IN_OVERWORLD, "You’ve met the Dragon Tamer Lance?\nI don’t believe you.\n"
 
 _0340: // Trainer 112
-    trainertextentry 112, TEXT_NOTICE_IN_OVERWORLD, "It’s not as if we all use Dragon-type\nPokémon. It’s about more than that--\rWe’re interested in strong Pokémon.\nThat’s my theme!\r"
-    trainertextentry 112, TEXT_DEFEATED_IN_BATTLE, "Just what I expected.\n"
-    trainertextentry 112, TEXT_DEFEATED_IN_OVERWORLD, "I need to make my Pokémon stronger!\rPokémon and Trainers both need\nto train!\n"
+    trainertextentry 112, TEXT_NOTICE_IN_OVERWORLD, "Dragon-type Pokémon are rare around\nhere.\rA lot of sea Pokémon are said to be\nrelated to dragons, so we use them\fquite often here.\r"
+    trainertextentry 112, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Just what I expected.\n"
+    trainertextentry 112, TEXT_DEFEATED_IN_OVERWORLD, "But then…\rWhy is there lava everywhere when we\nuse so many Water-type Pokémon?\r…\rHmm…\rI have no idea…\n"
 
 _034C: // Trainer 111
     trainertextentry 111, TEXT_NOTICE_IN_OVERWORLD, "My chance of losing?\nNot even one percent!\r"
@@ -1517,25 +1517,25 @@ _0D84: // Trainer 402
     trainertextentry 402, TEXT_REMATCH_IN_OVERWORLD, "Hey, you’re here!\nLet’s play!\r"
 
 _0D94: // Trainer 137
-    trainertextentry 137, TEXT_NOTICE_IN_OVERWORLD, "Do you know about the legendary\nbird Pokémon?\r"
-    trainertextentry 137, TEXT_DEFEATED_IN_BATTLE, "Whew! You’re hot stuff.\n"
-    trainertextentry 137, TEXT_DEFEATED_IN_OVERWORLD, "ARTICUNO, ZAPDOS, and MOLTRES are the\nthree legendary bird Pokémon.\rI heard there are other legendary\nbirds, though.\n"
+    trainertextentry 137, TEXT_NOTICE_IN_OVERWORLD, "Get ready to lose!\rI have the power of the sun in the palm\nof my hand!\r"
+    trainertextentry 137, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Whew! You’re hot stuff.\n"
+    trainertextentry 137, TEXT_DEFEATED_IN_OVERWORLD, "Well…\rLooks like the sun wasn't enough…\n"
     trainertextentry 137, TEXT_REMATCH_IN_OVERWORLD, "How has it been?\nDid you see the legendary Pokémon?\r"
 
 _0DA4: // Trainer 407
-    trainertextentry 407, TEXT_NOTICE_IN_OVERWORLD, "I can tell you’re a good Trainer by\nlooking at you.\rI’m good at Pokémon, and I can see that\nyou are, too.\r"
-    trainertextentry 407, TEXT_DEFEATED_IN_BATTLE, "Tch! It’s a total loss on my part.\n"
-    trainertextentry 407, TEXT_DEFEATED_IN_OVERWORLD, "Wow. You have a lot of Badges.\nNo wonder you’re so tough.\rI wonder if Ecruteak Gym’s Morty is\nstill in training?\fHe really hammered me.\n"
+    trainertextentry 407, TEXT_NOTICE_IN_OVERWORLD, "Get ready to be wrecked by my Bug-type\nsuper team!\r"
+    trainertextentry 407, TEXT_DEFEATED_IN_BATTLE, "What? My super Bug team lost?!\n"
+    trainertextentry 407, TEXT_DEFEATED_IN_OVERWORLD, "You're really strong.\rNo wonder you have Bugsy's Badge!\rI used to be one of Bugsy's assistants\nat his Gym.\rI admire him a lot.\n"
 
 _0DB0: // Trainer 408
-    trainertextentry 408, TEXT_NOTICE_IN_OVERWORLD, "You look strong.\rGood Trainers seek tough opponents\ninstinctively.\r"
-    trainertextentry 408, TEXT_DEFEATED_IN_BATTLE, "Nope! This won’t do at all.\n"
-    trainertextentry 408, TEXT_DEFEATED_IN_OVERWORLD, "We all get better by experiencing many\nbattles. I battled a lot to become what\fI am today--an elite.\n"
+    trainertextentry 408, TEXT_NOTICE_IN_OVERWORLD, "I love my Pokémon.\rThey're all so cute!\r"
+    trainertextentry 408, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Nooo, my beloved cuties!\n"
+    trainertextentry 408, TEXT_DEFEATED_IN_OVERWORLD, "I love Fairy-type Pokémon, but not\nevery cute Pokémon is one, you know?\n"
 
 _0DBC: // Trainer 405
-    trainertextentry 405, TEXT_NOTICE_IN_OVERWORLD, "I’m gonna win for sure!\r"
-    trainertextentry 405, TEXT_DEFEATED_IN_BATTLE, "Arrgh... That’s a shocking loss...\n"
-    trainertextentry 405, TEXT_DEFEATED_IN_OVERWORLD, "It’s important to have conviction on\nyour side.\n"
+    trainertextentry 405, TEXT_NOTICE_IN_OVERWORLD, "Have you seen my brother Nathan?\r"
+    trainertextentry 405, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Arrgh... That’s a shocking loss...\n"
+    trainertextentry 405, TEXT_DEFEATED_IN_OVERWORLD, "I think the last time I saw him was in\nthe Ruins of Alph…\n"
 
 _0DC8: // Trainer 124
     trainertextentry 124, TEXT_NOTICE_IN_OVERWORLD, "Aack! You made me lose a POLIWAG!\nWhat are you going to do about it?\r"

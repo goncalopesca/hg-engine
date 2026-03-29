@@ -9958,7 +9958,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ASPEAR_BERRY] =
 {
-    ITEM_PRICE(80),
+    ITEM_PRICE(200),
     .holdEffect = HOLD_EFFECT_FRZ_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 5,
@@ -10023,7 +10023,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LEPPA_BERRY] =
 {
-    ITEM_PRICE(80),
+    ITEM_PRICE(500),
     .holdEffect = HOLD_EFFECT_PP_RESTORE,
     .holdEffectParam = 10,
     .pluckEffect = 6,
@@ -13728,7 +13728,7 @@ const ITEMDATA __data[] =
 
 [ITEM_JABOCA_BERRY] =
 {
-    ITEM_PRICE(80),
+    ITEM_PRICE(750),
     .holdEffect = HOLD_EFFECT_RECOIL_PHYSICAL,
     .holdEffectParam = 8,
     .pluckEffect = 0,
@@ -13793,7 +13793,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ROWAP_BERRY] =
 {
-    ITEM_PRICE(80),
+    ITEM_PRICE(750),
     .holdEffect = HOLD_EFFECT_RECOIL_SPECIAL,
     .holdEffectParam = 8,
     .pluckEffect = 0,
