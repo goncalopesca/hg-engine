@@ -36,38 +36,21 @@ struct CustomAIResult {
     s16 score;
 };
 
-/*
- * Main entry point we will eventually call from a hook.
- * For now, this only returns CUSTOM_AI_CHOICE_NONE.
- */
-struct CustomAIResult CustomAI_ChooseAction(
-    struct BattleSystem *bw,
-    struct BattleStruct *sp,
-    u32 battler
-);
-
-/*
- * Trainer style system.
- * At first this is hardcoded. Later this can become a per-trainer table.
- */
 enum CustomAIStyle CustomAI_GetStyle(
-    struct BattleSystem *bw,
-    struct BattleStruct *sp,
+    struct BattleSystem *bsys,
+    struct BattleStruct *ctx,
     u32 battler
 );
 
-void CustomAI_DebugObserve(
-    struct BattleSystem *bw,
-    struct BattleStruct *sp,
+struct CustomAIResult CustomAI_ChooseAction(
+    struct BattleSystem *bsys,
+    struct BattleStruct *ctx,
     u32 battler
 );
 
-void CustomAI_ForceFightCommand(
-    struct BattleSystem *bw,
-    struct BattleStruct *sp,
-    u32 battler,
-    u8 moveSlot,
-    u8 target
+u8 CustomAI_SelectMove(
+    struct BattleSystem *bsys,
+    int battler
 );
 
 #endif

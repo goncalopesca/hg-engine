@@ -2,30 +2,17 @@
 #include "../../include/debug.h"
 #include "../../include/constants/moves.h"
 
-/*
- * For now, this is intentionally simple.
- *
- * Later, this function should probably inspect the trainer ID.
- * hg-engine exposes BattleWork_GetTrainerIndex in rom.ld, so that is likely
- * useful later, but we are not touching it in the first base commit.
- */
 enum CustomAIStyle CustomAI_GetStyle(
-    struct BattleSystem *bw UNUSED,
-    struct BattleStruct *sp UNUSED,
+    struct BattleSystem *bsys UNUSED,
+    struct BattleStruct *ctx UNUSED,
     u32 battler UNUSED
 ) {
     return CUSTOM_AI_STYLE_STANDARD;
 }
 
-/*
- * Placeholder candidate builder.
- *
- * This is deliberately not used yet. We are creating the architecture first,
- * then we will fill in legality, targeting, scoring, and final write-back.
- */
 static int CustomAI_BuildMoveCandidates(
-    struct BattleSystem *bw UNUSED,
-    struct BattleStruct *sp UNUSED,
+    struct BattleSystem *bsys UNUSED,
+    struct BattleStruct *ctx UNUSED,
     u32 battler UNUSED,
     struct CustomAIMoveCandidate *out UNUSED,
     int max UNUSED
@@ -33,14 +20,9 @@ static int CustomAI_BuildMoveCandidates(
     return 0;
 }
 
-/*
- * Placeholder scorer.
- *
- * Later this becomes the heart of the AI.
- */
 static s16 CustomAI_ScoreMoveCandidate(
-    struct BattleSystem *bw UNUSED,
-    struct BattleStruct *sp UNUSED,
+    struct BattleSystem *bsys UNUSED,
+    struct BattleStruct *ctx UNUSED,
     u32 battler UNUSED,
     struct CustomAIMoveCandidate *candidate UNUSED,
     enum CustomAIStyle style UNUSED
@@ -48,15 +30,9 @@ static s16 CustomAI_ScoreMoveCandidate(
     return 0;
 }
 
-/*
- * Main custom AI function.
- *
- * Important: right now this does not override anything.
- * Returning CUSTOM_AI_CHOICE_NONE means "let vanilla / existing hg-engine AI continue."
- */
 struct CustomAIResult CustomAI_ChooseAction(
-    struct BattleSystem *bw,
-    struct BattleStruct *sp,
+    struct BattleSystem *bsys,
+    struct BattleStruct *ctx,
     u32 battler
 ) {
     struct CustomAIResult result;
@@ -68,7 +44,7 @@ struct CustomAIResult CustomAI_ChooseAction(
     result.target = 0;
     result.score = 0;
 
-    style = CustomAI_GetStyle(bw, sp, battler);
+    style = CustomAI_GetStyle(bsys, ctx, battler);
 
 #ifdef DEBUG_CUSTOM_AI
     debug_printf(
@@ -81,43 +57,49 @@ struct CustomAIResult CustomAI_ChooseAction(
     return result;
 }
 
-void CustomAI_DebugObserve(
-    struct BattleSystem *bw UNUSED,
-    struct BattleStruct *sp,
-    u32 battler
-) {
+u8 LONG_CALL CustomAI_SelectMove(struct BattleSystem *bsys, int battler)
+{
+    struct BattleStruct *ctx = bsys->sp;
+
+    u8 moveSlot = 0;
+    u8 target = 0;
+
+    /*
+     * Temporary baseline:
+     * choose the first usable damaging move.
+     *
+     * This confirms our custom AI hook is active while avoiding
+     * endless Growl/Leer-style status spam.
+     */
+    for (u8 i = 0; i < 4; i++) {
+        u16 move = ctx->battlemon[battler].move[i];
+
+        if (move == MOVE_NONE)
+            continue;
+
+        if (ctx->battlemon[battler].pp[i] == 0)
+            continue;
+
+        if (ctx->moveTbl[move].power == 0)
+            continue;
+
+        moveSlot = i;
+        break;
+    }
+
+    ctx->waza_no_pos[battler] = moveSlot;
+    ctx->waza_no_select[battler] = ctx->battlemon[battler].move[moveSlot];
+    ctx->aiWorkTable.ai_dir_select_client[battler] = target;
+
 #ifdef DEBUG_CUSTOM_AI
     debug_printf(
-        "[CustomAI Observe] battler=%d move=%d slot=%d\n",
-        battler,
-        sp->waza_no_select[battler],
-        sp->waza_no_pos[battler]
-    );
-#endif
-}
-
-void CustomAI_ForceFightCommand(
-    struct BattleSystem *bw UNUSED,
-    struct BattleStruct *sp,
-    u32 battler,
-    u8 moveSlot,
-    u8 target
-) {
-    sp->playerActions[battler][0] = CONTROLLER_COMMAND_FIGHT_INPUT;
-    sp->playerActions[battler][1] = target;
-    sp->playerActions[battler][2] = moveSlot + 1;
-    sp->playerActions[battler][3] = SELECT_FIGHT_COMMAND;
-
-    sp->waza_no_pos[battler] = moveSlot;
-    sp->waza_no_select[battler] = sp->battlemon[battler].move[moveSlot];
-
-#ifdef DEBUG_CUSTOM_AI
-    debug_printf(
-        "[CustomAI] forced battler=%d moveSlot=%d move=%d target=%d\n",
+        "[CustomAI_SelectMove] battler=%d moveSlot=%d move=%d target=%d\n",
         battler,
         moveSlot,
-        sp->waza_no_select[battler],
+        ctx->waza_no_select[battler],
         target
     );
 #endif
+
+    return moveSlot;
 }
