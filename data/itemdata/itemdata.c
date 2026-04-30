@@ -9763,7 +9763,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHESTO_BERRY] =
 {
-    ITEM_PRICE(80),
+    ITEM_PRICE(5000),
     .holdEffect = HOLD_EFFECT_SLP_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 2,
@@ -12818,7 +12818,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HABAN_BERRY] =
 {
-    ITEM_PRICE(80),
+    ITEM_PRICE(1000),
     .holdEffect = HOLD_EFFECT_WEAKEN_SE_DRAGON,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -14118,7 +14118,7 @@ const ITEMDATA __data[] =
 
 [ITEM_QUICK_CLAW] =
 {
-    ITEM_PRICE(8000),
+    ITEM_PRICE(5000),
     .holdEffect = HOLD_EFFECT_SOMETIMES_PRIORITY,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -17238,7 +17238,7 @@ const ITEMDATA __data[] =
 
 [ITEM_WIDE_LENS] =
 {
-    ITEM_PRICE(20000),
+    ITEM_PRICE(7500),
     .holdEffect = HOLD_EFFECT_ACCURACY_UP,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -21658,7 +21658,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM006] =
 {
-    ITEM_PRICE(1600),
+    ITEM_PRICE(7500),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24648,7 +24648,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM052] =
 {
-    ITEM_PRICE(12000),
+    ITEM_PRICE(9800),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

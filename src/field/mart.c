@@ -172,8 +172,8 @@ u16 sMtMoonSquare[] = {
     ITEM_HEART_MAIL, 0xFFFF
 };
 
-u16 sMahoganyPreRocketHideout[] = {
-    ITEM_TINY_MUSHROOM, ITEM_POKE_BALL, ITEM_POTION, 0xFFFF
+u16 sMahoganyPreRocketHideout[] = { // changes to safari zone gate (after clair's badge is obtained)
+    ITEM_HABAN_BERRY, ITEM_CHESTO_BERRY, ITEM_QUICK_CLAW, ITEM_WIDE_LENS, ITEM_TM006, ITEM_TM052, 0xFFFF
 };
 
 u16 sMahoganyPostRocketHideout[] = {

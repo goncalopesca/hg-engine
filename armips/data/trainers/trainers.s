@@ -6205,7 +6205,7 @@ trainerdata 731, "Devin"
         move MOVE_MAGNITUDE
         move MOVE_CURSE
         move MOVE_ROCK_SLIDE
-        move MOVE_AVALANCHE
+        move MOVE_POISON_JAB
         nature NATURE_SASSY
         ballseal 0
     endparty
@@ -10024,7 +10024,7 @@ trainerdata 35, "Clair"
 
     party 35
         // mon 0
-        ivs 200
+        ivs 255
         abilityslot 0
         level 52
         pokemon SPECIES_DRAGONAIR
@@ -10037,7 +10037,7 @@ trainerdata 35, "Clair"
         ballseal 0
 
         // mon 1
-        ivs 200
+        ivs 255
         abilityslot 0
         level 52
         pokemon SPECIES_FERALIGATR
@@ -10050,7 +10050,7 @@ trainerdata 35, "Clair"
         ballseal 0
 
         // mon 2
-        ivs 200
+        ivs 255
         abilityslot 0
         level 53
         pokemon SPECIES_GYARADOS
@@ -10063,7 +10063,7 @@ trainerdata 35, "Clair"
         ballseal 0
 
         // mon 3
-        ivs 200
+        ivs 255
         abilityslot 32
         level 53
         pokemon SPECIES_LAPRAS
@@ -10076,7 +10076,7 @@ trainerdata 35, "Clair"
         ballseal 0
 
         // mon 4
-        ivs 200
+        ivs 255
         abilityslot 32
         level 54
         pokemon SPECIES_KINGDRA
@@ -10088,6 +10088,170 @@ trainerdata 35, "Clair"
         nature NATURE_HARDY
         ballseal 0
     endparty
+
+// -------- Ecruteak Dance Theater -------- //
+trainerdata 162, "Zuki"
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 162
+        // mon 0
+        ivs 255
+        abilityslot 0
+        level 54
+        pokemon SPECIES_UMBREON
+        move MOVE_DETECT
+        move MOVE_DARK_PULSE
+        move MOVE_TOXIC
+        move MOVE_DIG
+        nature NATURE_SASSY
+        ballseal 0
+    endparty
+trainerdata 160, "Naoko"
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 160
+        // mon 0
+        ivs 255
+        abilityslot 0
+        level 54
+        pokemon SPECIES_ESPEON
+        move MOVE_DAZZLING_GLEAM
+        move MOVE_PSYCHIC
+        move MOVE_SHADOW_BALL
+        move MOVE_CALM_MIND
+        nature NATURE_MODEST
+        ballseal 0
+    endparty
+trainerdata 164, "Miki"
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 164
+        // mon 0
+        ivs 255
+        abilityslot 0
+        level 54
+        pokemon SPECIES_FLAREON
+        move MOVE_BLAZE_KICK
+        move MOVE_FLAMETHROWER
+        move MOVE_WILL_O_WISP
+        move MOVE_DIG
+        nature NATURE_BRAVE
+        ballseal 0
+    endparty
+trainerdata 161, "Sayo"
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 161
+        // mon 0
+        ivs 255
+        abilityslot 0
+        level 54
+        pokemon SPECIES_JOLTEON
+        move MOVE_DETECT
+        move MOVE_THUNDER_WAVE
+        move MOVE_SIGNAL_BEAM
+        move MOVE_THUNDERBOLT
+        nature NATURE_TIMID
+        ballseal 0
+    endparty
+trainerdata 163, "Kuni"
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET
+    trainerclass TRAINERCLASS_KIMONO_GIRL
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 163
+        // mon 0
+        ivs 255
+        abilityslot 0
+        level 54
+        pokemon SPECIES_VAPOREON
+        move MOVE_DETECT
+        move MOVE_ACID_ARMOR
+        move MOVE_ICE_BEAM
+        move MOVE_WHIRLPOOL
+        nature NATURE_CALM
+        ballseal 0
+    endparty
+
+// -------- Bell Tower -------- //
+
+trainerdata 170, "Ho-oh"
+    trainermontype TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_IV_EV_SET
+    trainerclass TRAINERCLASS_WILD_POKEMON
+    nummons 1
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 170
+        ivs 255 
+        abilityslot 0
+        level 65
+        pokemon SPECIES_HO_OH
+        move MOVE_SUNNY_DAY
+        move MOVE_AIR_SLASH
+        move MOVE_SACRED_FIRE
+        move MOVE_EARTHQUAKE
+        setivs 14, 31, 14, 14, 31, 14 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CALM
+        ballseal 0
+    endparty
+
+// -------- Route 27 -------- //
+
+// -------- Route 26 -------- //
+
+// -------- Victory Road -------- //
+
+// -------- Elite Four -------- //
 
 // ----------------------------------- WIP --------------------------------------- //
 
@@ -11942,138 +12106,9 @@ trainerdata 155, "Anthony"
         pokemon SPECIES_MACHOKE
         ballseal 0
     endparty
-trainerdata 160, "Naoko"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
-    trainerclass TRAINERCLASS_KIMONO_GIRL
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 160
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_ESPEON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_PSYCHIC
-        move MOVE_PSYCH_UP
-        move MOVE_SWIFT
-        ballseal 0
-    endparty
-
-trainerdata 161, "Sayo"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
-    trainerclass TRAINERCLASS_KIMONO_GIRL
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 161
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_JOLTEON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_THUNDERBOLT
-        move MOVE_DOUBLE_TEAM
-        move MOVE_THUNDER_WAVE
-        ballseal 0
-    endparty
-
-trainerdata 162, "Zuki"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
-    trainerclass TRAINERCLASS_KIMONO_GIRL
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 162
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_UMBREON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_DARK_PULSE
-        move MOVE_CONFUSE_RAY
-        move MOVE_SHADOW_BALL
-        ballseal 0
-    endparty
-
-trainerdata 163, "Kuni"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
-    trainerclass TRAINERCLASS_KIMONO_GIRL
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 163
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_VAPOREON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_SURF
-        move MOVE_QUICK_ATTACK
-        move MOVE_AURORA_BEAM
-        ballseal 0
-    endparty
-
-trainerdata 164, "Miki"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
-    trainerclass TRAINERCLASS_KIMONO_GIRL
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 164
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_FLAREON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_FIRE_BLAST
-        move MOVE_QUICK_ATTACK
-        move MOVE_WILL_O_WISP
-        ballseal 0
-    endparty
-trainerdata 169, "Mickey"
+trainerdata 169, "Kael"
     trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SWIMMER_M
+    trainerclass TRAINERCLASS_VETERAN
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -12098,42 +12133,6 @@ trainerdata 169, "Mickey"
         pokemon SPECIES_PILOSWINE
         ballseal 0
     endparty
-
-trainerdata 170, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SWIMMER_M
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 170
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 24
-        pokemon SPECIES_SHELLDER
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 25
-        pokemon SPECIES_CLOYSTER
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 24
-        pokemon SPECIES_SHELLDER
-        ballseal 0
-    endparty
-
 trainerdata 171, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SWIMMER_M
