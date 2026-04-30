@@ -56,4 +56,18 @@ enum CustomAIStyle CustomAI_GetStyle(
     u32 battler
 );
 
+void CustomAI_DebugObserve(
+    struct BattleSystem *bw,
+    struct BattleStruct *sp,
+    u32 battler
+);
+
+void CustomAI_ForceFightCommand(
+    struct BattleSystem *bw,
+    struct BattleStruct *sp,
+    u32 battler,
+    u8 moveSlot,
+    u8 target
+);
+
 #endif

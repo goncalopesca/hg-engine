@@ -80,3 +80,44 @@ struct CustomAIResult CustomAI_ChooseAction(
 
     return result;
 }
+
+void CustomAI_DebugObserve(
+    struct BattleSystem *bw UNUSED,
+    struct BattleStruct *sp,
+    u32 battler
+) {
+#ifdef DEBUG_CUSTOM_AI
+    debug_printf(
+        "[CustomAI Observe] battler=%d move=%d slot=%d\n",
+        battler,
+        sp->waza_no_select[battler],
+        sp->waza_no_pos[battler]
+    );
+#endif
+}
+
+void CustomAI_ForceFightCommand(
+    struct BattleSystem *bw UNUSED,
+    struct BattleStruct *sp,
+    u32 battler,
+    u8 moveSlot,
+    u8 target
+) {
+    sp->playerActions[battler][0] = CONTROLLER_COMMAND_FIGHT_INPUT;
+    sp->playerActions[battler][1] = target;
+    sp->playerActions[battler][2] = moveSlot + 1;
+    sp->playerActions[battler][3] = SELECT_FIGHT_COMMAND;
+
+    sp->waza_no_pos[battler] = moveSlot;
+    sp->waza_no_select[battler] = sp->battlemon[battler].move[moveSlot];
+
+#ifdef DEBUG_CUSTOM_AI
+    debug_printf(
+        "[CustomAI] forced battler=%d moveSlot=%d move=%d target=%d\n",
+        battler,
+        moveSlot,
+        sp->waza_no_select[battler],
+        target
+    );
+#endif
+}
